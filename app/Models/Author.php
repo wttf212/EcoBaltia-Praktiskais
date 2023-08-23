@@ -19,6 +19,7 @@ class Author extends Model
      * @var array<string>
      */
     protected $hidden = [
+        'pivot',
         'created_at',
         'updated_at',
     ];
